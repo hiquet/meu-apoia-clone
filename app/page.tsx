@@ -9,12 +9,19 @@ export default function Home() {
           A plataforma de financiamento para criadores de Santa Catarina. 
           <br/><span className="text-zinc-500 text-sm italic">Desenvolvido por Henrique (PH)</span>
         </p>
+        
+        {/* Simulação de Barra de Progresso */}
+        <div className="w-full max-w-md mx-auto bg-zinc-900 h-4 rounded-full mt-8 overflow-hidden border border-zinc-800">
+          <div className="bg-red-600 h-full w-[65%] shadow-[0_0_15px_rgba(220,38,38,0.5)]"></div>
+        </div>
+        <p className="text-sm text-zinc-500">Meta: R$ 6.500,00 de R$ 10.000,00</p>
+
         <div className="flex gap-4 justify-center pt-6">
           <button className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-lg font-bold transition-all shadow-lg shadow-red-900/20">
-            Explorar Projetos
+            Apoiar Projeto
           </button>
           <button className="border border-zinc-800 hover:bg-zinc-900 text-white px-10 py-4 rounded-lg font-bold transition-all">
-            Criar Campanha
+            Ver Recompensas
           </button>
         </div>
       </div>
